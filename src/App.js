@@ -5,7 +5,7 @@ function App() {
    const [data, setData] = useState({});
    const [location, setLocation] = useState("");
 
-   const url = `API_KEY`;
+   const url = API_KEY;
 
    const searchingLocation = (e) => {
       if (e.key === "Enter") {
